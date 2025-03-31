@@ -1,0 +1,38 @@
+<!-- HTML syntax -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AsteroidField</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Link to the JavaScript file for the gameplay. -->
+  <script src="gameplay.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <div>
+      <nav>
+        <ul>
+            <!-- Navigation bar elements- logo and hyperlinks to other pages. -->
+          <li><img src="newlogo.png" alt="logo" width="100" height="100"></li>
+          <li><a href="login.html" style="font-family: 'Courier New'; font-size: 25px;">Login</a></li>
+          <li><a href="signup.html" style="font-family: 'Courier New'; font-size: 25px;">Sign Up</a></li>
+          <li><a href="leaderboard.html" style="font-family: 'Courier New'; font-size: 25px;">Leaderboard</a></li>
+          <li><a href="gameplay.html" style="font-family: 'Courier New'; font-size: 25px;">Gameplay</a></li>
+          <li><a href="index.html" style="font-family: 'Courier New'; font-size: 25px;">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Styling the game name. -->
+  <h1 style="color: white; background-color: rgba(72, 61, 139, 0.7);">Force Invaders</h1>
+  
+<!-- Game canvas id and size properties. -->
+  <canvas id="board" width="1000" height="500">
+  </canvas>
+</body>
+</html>
